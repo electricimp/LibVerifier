@@ -1,0 +1,10 @@
+{
+  "LicenseChecker" : [
+    "**/node_modules",
+    "**/.git",
+    "**/resources/**",
+    "#**/test*/**",
+    "**/spec/**",
+    "#**/LICENSE"
+  ]
+}
