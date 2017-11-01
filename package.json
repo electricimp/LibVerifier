@@ -1,0 +1,30 @@
+{
+  "name": "lib-verifier",
+  "version": "0.0.1",
+  "description": "Electric Imp tool for 3'd party library validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobitlost/LibVerifier.git"
+  },
+  "keywords": [
+    "validation",
+    "ElectricImp"
+  ],
+  "author": "Lev Ospennikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nobitlost/LibVerifier/issues"
+  },
+  "homepage": "https://github.com/nobitlost/LibVerifier#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
